@@ -1,0 +1,64 @@
+.App {
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: monospace;
+  border-radius: 0px;
+ 
+  }
+
+button {
+  font-family: inherit;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  color: black;
+  width: 50%;
+  max-width: 150px;
+  height: 50px;
+  border: none;
+  background-color: white;
+  font-weight: 600;
+  z-index: 4;
+  cursor: pointer;
+}
+
+.text {
+  color:#FF6000 ;
+  
+  z-index: 4;
+  opacity: 0.5;
+}
+.welcome-msg{
+
+  font-size: 2.2rem;
+  margin: 10px;
+}
+
+.wem{
+  color:#DF2E38;
+  z-index: 4;
+  opacity: 0.5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.arrow-msg {
+  font-size: 1rem;
+  margin: 10px;
+}
+
+.game-over {
+  font-size: 3rem;
+}
+
+.count {
+  position: absolute;
+  font-size: 2rem;
+  bottom: 0px;
+  color: #F55050;
+  opacity: 0.5;
+}
